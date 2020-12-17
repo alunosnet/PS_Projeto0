@@ -16,7 +16,13 @@ namespace Projeto0_11I
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-           
+            int nr = int.Parse(tb.Text);
+            Label1.Text = "";
+            for(int i = 0; i <=10; i++)
+            {
+                
+                Label1.Text += $"{nr} x {i} = {nr * i} <br/>";
+            }
         }
     }
 }

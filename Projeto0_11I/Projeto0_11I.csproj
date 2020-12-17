@@ -67,18 +67,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="enforcado.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="numero_secreto.aspx" />
     <Content Include="Soma.aspx" />
     <Content Include="Tabuada.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="enforcado.aspx.cs">
+      <DependentUpon>enforcado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="enforcado.aspx.designer.cs">
+      <DependentUpon>enforcado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="numero_secreto.aspx.cs">
+      <DependentUpon>numero_secreto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="numero_secreto.aspx.designer.cs">
+      <DependentUpon>numero_secreto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Soma.aspx.cs">
